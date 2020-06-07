@@ -1,4 +1,4 @@
-# Automatic-Radial-Menus-Code-Samples
+# Automatic Radial Menus - Code Samples
 This repository includes examples of how to interact with the UE4 Automatic Radial Menus plugin using C++.
 
 <strong>Purchase: </strong>ADD</br>
