@@ -1,10 +1,12 @@
 # Automatic Radial Menus - Code Samples
 This repository includes examples of how to interact with the UE4 Automatic Radial Menus plugin using C++.
 
-<strong>Purchase: </strong>ADD</br>
-<strong>Itch: </strong>ADD</br>
-<strong>Website: </strong>ADD</br>
-<strong>Support Email: </strong>ADD</br>
+<strong>Purchase: </strong>Coming Soon</br>
+<strong>Itch: </strong>Coming Soon</br>
+<strong>Full Documentation: </strong>https://docs.google.com/document/d/1FX6kFsc1HwUKw_bF7iKGUtSWE0iaF5YazHdNnkcgnfQ/edit?usp=sharing</br>
+<strong>Website: </strong> http://www.samcarey.tech/#/ProjectPage?ProjectID=6</br>
+<strong>Support Email: </strong>contact@samcarey.tech</br>
+
 
 
 
@@ -22,11 +24,12 @@ The following must be included in the header of the class performing the menu ac
 ```cpp
 #include "RadialSegmentData.h"
 #include "BaseRadialMenu.h
+#include "RadialMenuSegment.h"
 ```
 
-<h3>Radial Menu Reffernce</h3>
+<h3>Radial Menu Reference</h3>
 
-References to a radial menu can be made in the following in a UUserWidget Class
+References to a radial menu can be made in a UUserWidget Class. The BindWidget modifier allows the reference to be automatically set if the name matches in the user widget blueprint.
 ```cpp
 UPROPERTY(EditAnywhere, BlueprintReadOnly, meta = (BindWidget))
 	UBaseRadialMenu *RadialMenu;
