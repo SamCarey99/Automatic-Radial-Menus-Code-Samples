@@ -1,9 +1,9 @@
 # Automatic Radial Menus - Code Samples
-This repository includes examples of how to interact with the UE4 Automatic Radial Menus plugin using C++.
+This repository includes examples of how to interact with the UE4 Automatic Radial Menus plugin using C++. For information about implementing this plugin using blueprints see the full documentation below.<br>
+<strong>Full Documentation: </strong>https://docs.google.com/document/d/1FX6kFsc1HwUKw_bF7iKGUtSWE0iaF5YazHdNnkcgnfQ/edit?usp=sharing</br>
 
 <strong>Purchase: </strong>Coming Soon</br>
-<strong>Itch: </strong>Coming Soon</br>
-<strong>Full Documentation: </strong>https://docs.google.com/document/d/1FX6kFsc1HwUKw_bF7iKGUtSWE0iaF5YazHdNnkcgnfQ/edit?usp=sharing</br>
+<strong>Itch: </strong>https://samcarey.itch.io/dynamic-radial-menu-system-ue4-asset</br>
 <strong>Website: </strong> http://www.samcarey.tech/#/ProjectPage?ProjectID=6</br>
 <strong>Support Email: </strong>contact@samcarey.tech</br>
 
@@ -23,7 +23,7 @@ The following must be included in the header of the class performing the menu ac
 
 ```cpp
 #include "RadialSegmentData.h"
-#include "BaseRadialMenu.h
+#include "BaseRadialMenu.h"
 #include "RadialMenuSegment.h"
 ```
 
