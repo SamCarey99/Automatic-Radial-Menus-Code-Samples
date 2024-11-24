@@ -46,8 +46,9 @@ OnSegmentClick(URadialMenuSegment * Segment, FRadialSegmentData SegmentData)
 Example binding a click event
 
 ```cpp
-void UExampleCBindings::NativeConstruct()
+void UExampleCBindings::NativeOnInitialized()
 {
+	Super::NativeOnInitialized();
 	TArray<URadialMenuSegment *> Segments = RadialMenu->GetAllSegments();
 	for (URadialMenuSegment* i : Segments)
 	{
